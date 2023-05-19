@@ -1,6 +1,6 @@
 #include <iostream>
 #include <stack>
-int main{
+int main(){
     std::stack<int>pila;
 
     pila.push(10);
@@ -9,7 +9,7 @@ int main{
 
     while(!pila.empty()){
         std::cout <<pila.top()<<"";
-        pila.push();
+        pila.pop();
     }
     return 0;
 }
