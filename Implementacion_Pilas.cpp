@@ -8,7 +8,7 @@ int main{
     pila.push(30);
 
     while(!pila.empty()){
-        std::cout <pila.top()<<"";
+        std::cout <<pila.top()<<"";
         pila.push();
     }
     return 0;
